@@ -3,7 +3,6 @@ import { render } from 'react-dom';
 
 import { Form, Icon, Input, Button, Checkbox } from 'antd';
 const FormItem = Form.Item;
-import 'antd/dist/antd.css';
 
 class NormalLoginForm extends React.Component {
   handleSubmit = (e) => {
